@@ -36,6 +36,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -55,6 +56,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -74,6 +76,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -90,6 +93,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "32",
 	prefer: true,
 	soc_specific: true,
+	check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -106,6 +110,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "32",
 	prefer: true,
 	soc_specific: true,
+	check_elf_files: false,
 }
 
 cc_prebuilt_library_shared {
@@ -122,6 +127,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "64",
 	prefer: true,
 	soc_specific: true,
+	check_elf_files: false,
 }
 
 android_app_import {
